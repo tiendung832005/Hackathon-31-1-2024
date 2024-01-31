@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+.header{
+    background-color: rgba(14, 2, 70, 0.977);
+    width: 100%;
+    color: #FFFFFF;
+    height: 800px;
+}
+.img-header{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin-left: 38%;
+    margin-top: 100px;
+}
+.header-1{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    left: 10px; 
+}
+.font-1{
+    position: absolute;
+    left: 25%;
+    font-weight: 900;
+    font-size: 40px;
+    top: 50px;
+    text-align: right;
+}
+.font-2{
+    margin-bottom: 100px;
+    position: absolute;
+    bottom: 150px;
+    display: flex;
+    text-align: right;
+    left: 70px;
+    font-weight: lighter;
+}
+.font-3{
+    font-weight:bolder;
+    position: absolute;
+    bottom: 200px;
+    left: 25%;
+}
+.header-right{
+    margin-left: 65%;
+    position: absolute;
+    bottom: 100px;
+    font-size: 33px;
+    text-align: left;
+}
+.hr-1{
+    width: 25px;
+    position: absolute;
+    bottom: 208px;
+    left: 34%;
+}
+.hr-2{
+    width: 80px;
+    height: 6px;
+    background-color: palevioletred;
+    border: 1px solid transparent;
+}
+.menu{
+    border: 1px solid transparent;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 93%;
+    position: absolute;
+    top: 30px;
+}
+.menu .icon-1{
+    margin-top: 6px;
+}
+.next{
+    background-color:rgba(14, 2, 70, 0.977);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    margin-top: 30px;
+    margin-left: 48%;
+    text-align: center;
+    display: flex;
+}
+.body{
+    background-color:rgba(14, 2, 70, 0.977);
+    color: #FFFFFF;
+    width: 100%;
+}
+.body-left{
+    width: 50%;
+    margin-left: 40px;
+}
+.body .aboutme{
+    font-size: 33px;
+    margin-left: 45%;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+.body p{
+    margin-top: 10px;
+    margin-bottom: 10px ;
+}
+.Photoshop {
+    border: 1px solid transparent;
+    width: 160px;
+    height: 160px;
+    background-color: pink;
+    border-radius: 20%;
+    text-align: center;
+    top: 1000px;
+    position: absolute;
+    margin-left: 65%;
+    padding: 20px;
+}
+.Photoshop-1 {
+    border-radius: 50%;
+    border: 5px solid ;
+    padding: 10px;
+}
+.HTML {
+    border: 1px solid transparent;
+    width: 160px;
+    height: 160px;
+    background-color: pink;
+    border-radius: 20%;
+    text-align: center;
+    top: 1000px;
+    position: absolute;
+    margin-left: 80%;
+    padding: 20px;
+}
+.HTML-1 {
+    border-radius: 100%;
+    border: 5px solid ;
+    padding: 10px;
+
+}
+.PHP {
+    border: 1px solid transparent;
+    width: 160px;
+    height: 160px;
+    background-color: pink;
+    border-radius: 20%;
+    text-align: center;
+    top: 1200px;
+    position: absolute;
+    margin-left: 80%;
+    padding: 20px;
+}
+.PHP-1 {
+    border-radius: 100%;
+    border: 5px solid ;
+    padding: 10px;
+
+}
+.javascript {
+    border: 1px solid transparent;
+    width: 160px;
+    height: 160px;
+    background-color: pink;
+    border-radius: 20%;
+    text-align: center;
+    top: 1200px;
+    position: absolute;
+    margin-left: 65%;
+    padding: 20px;
+}
+.javascript-1 {
+    border-radius: 100%;
+    border: 5px solid ;
+    padding: 10px;
+
+}
+.body-2{
+    background-color:rgba(14, 2, 70, 0.977);
+    color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.Client{
+    margin-top: 50px;
+    width: 180px;
+    height: 100px;
+    border: 1px solid transparent;
+    background-color: pink;
+    border-radius: 10%;
+    text-align: center;
+    padding: 15px;
+}
+.Projects {
+    margin-top: 50px;
+    width: 180px;
+    height: 100px;
+    border: 1px solid transparent;
+    background-color: pink;
+    border-radius: 10%;
+    text-align: center;
+    padding: 15px;
+}
+.Countries {
+    margin-top: 50px;
+    width: 180px;
+    height: 100px;
+    border: 1px solid transparent;
+    background-color: pink;
+    border-radius: 10%;
+    text-align: center;
+    padding: 15px;
+}
+.Awords {
+    margin-top: 50px;
+    width: 180px;
+    height: 100px;
+    border: 1px solid transparent;
+    background-color: pink;
+    border-radius: 10%;
+    text-align: center;
+    padding: 15px;
+}
+.font-body-2{
+    font-weight: bolder;
+    font-size: 33px;
+}
+.font-body-3{
+    font-weight: bolder;
+    font-size: 33px;
+    color: aqua;
+}
+.body-3{
+    background-color:rgba(14, 2, 70, 0.977);
+    color: gray;
+   
+}
+.myResume{
+    font-size: 33px;
+    margin-left: 45%;
+    margin-bottom: 80px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+.edu-ex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.Master-Envato{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    position: relative;
+    padding-right: 20px;
+}
+.june-15{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    position: absolute;
+    top: 23px;
+    left:60px;
+    background-color: pink;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Master{
+    border: 1px solid black;
+    background-color: pink;
+    border-radius: 8px;
+    height: 180px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+.march-12{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    position: absolute;
+    top: 23px;
+    left:670px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Envato{
+    border: 1px solid black;
+    background-color: pink;
+    border-radius: 8px;
+    height: 180px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 20px;
+}
+.Bachelor-Fb{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    position: relative;
+    padding-right: 20px;
+}
+.june-12{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    position: absolute;
+    top: 23px;
+    left:60px;
+    background-color: pink;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Bachelor{
+    border: 1px solid black;
+    background-color: pink;
+    border-radius: 8px;
+    height: 180px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+.january-23{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    position: absolute;
+    top: 23px;
+    left:670px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Fb{
+    border: 1px solid black;
+    background-color: pink;
+    border-radius: 8px;
+    height: 180px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 20px;
+}
+.Higher-Twitter{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    position: relative;
+    padding-right: 20px;
+}
+.june-1{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    position: absolute;
+    top: 23px;
+    left:60px;
+    background-color: pink;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Higher{
+    border: 1px solid black;
+    background-color: pink;
+    border-radius: 8px;
+    height: 180px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+.july-23{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    position: absolute;
+    top: 23px;
+    left:670px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Twitter{
+    border: 1px solid black;
+    background-color: pink;
+    border-radius: 8px;
+    height: 180px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 20px;
+}
+.body-4 {
+    background-color:rgba(14, 2, 70, 0.977);
+    color: gray;
+}
+.myProject {
+    font-size: 33px;
+    margin-left: 45%;
+    margin-bottom: 80px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+.myProject-header {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    font-weight: 700;
+}
+.bonza-showmania {
+    padding-top: 5px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    position: relative;
+    padding-right: 20px;
+}
+.bonza{
+    border: 1px solid transparent;
+    background-color: pink;
+    border-radius: 8px;
+    height: 420px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.bonza-body{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+.showmania {
+    border: 1px solid transparent;
+    background-color: pink;
+    border-radius: 8px;
+    height: 420px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.showmania-body {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.img-1{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.body-5 {
+    background-color:rgba(14, 2, 70, 0.977);
+    color: gray;
+    position: relative;
+}
+.getinTouch {
+    font-size: 33px;
+    margin-left: 45%;
+    margin-bottom: 80px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+.contact{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 450px;
+    height: 150px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding-left: 30px;
+    background-color: pink;
+    margin-bottom: 20px;
+}
+.mail-1{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+.contact-form{
+    padding-top: 5px;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    position: relative;
+    padding-right: 20px;
+}
+.info{
+    background-color: pink;
+    width: 650px;
+    height: 60px;
+    border-radius: 10px;
+    border: transparent;
+    margin-bottom: 30px;
+}
+.info-1{
+    background-color: pink;
+    width: 650px;
+    height: 130px;
+    border-radius: 10px;
+    border: transparent;
+    margin-bottom: 30px;
+}
+.hr-form {
+    position: absolute;
+    width: 30px;
+    top: 450px;
+    left: 108vh;
+}
+.footer{
+    background-color: rgb(8, 1, 40);
+    color: gray;
+    height: 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.footer-right{
+    display: flex;
+    gap: 20px;
+    margin-left: 300px;
+    color: #FFFFFF;
+}
+.footer-icon{
+    border: 1px solid transparent;
+    border-radius:  50%;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: pink;
+}
+.arrow-up{
+    position: absolute;
+    bottom: 70px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+}
+.whatsapp-icon{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+
